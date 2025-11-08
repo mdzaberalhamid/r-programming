@@ -1,0 +1,13 @@
+# AND
+a <- 200
+b <- 99
+c <- 5000
+
+if (a > b & c > a) {
+  print("Both statements are true!")
+}
+
+# OR
+if (a > b | a > c) {
+  print("At least one of the conditions is true!")
+}
